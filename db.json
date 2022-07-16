@@ -1,12 +1,79 @@
 {
-    "status": 1,
-    "msg": "Sukses menampilkan post list.",
-    "data": {
-        "start": 1,
-        "end": 10,
-        "next": 2,
-        "prev": 0,
-        "current_page": 1,
-        "total_page": 3
-    }
+  "status": 1,
+  "msg": "Sukses menampilkan post list.",
+  "data": {
+    "start": 1,
+    "end": 10,
+    "next": 2,
+    "prev": 0,
+    "current_page": 1,
+    "total_page": 3,
+    "list_data": [
+      {
+        "id": "54",
+        "status_post": "1",
+        "title": "Sunny",
+        "posted_by": "44",
+        "image": "https://i.mydramalist.com/woZEN_4c.jpg?v=1",
+        "featured_status": "0",
+        "comment_status": "0",
+        "views": "151",
+        "createAt": "2022-07-13 11:37:14",
+        "updateAt": "2022-07-13 11:37:18",
+        "episodeUpdateAt": "",
+        "taxonomy": [
+          {
+            "id": "2",
+            "label": "Type",
+            "slug": "type",
+            "type": "select",
+            "terms": [
+              {
+                "id": "57",
+                "id_taxonomy": "2",
+                "value": "TV Show",
+                "slug": "tv-show"
+              }
+            ]
+          },
+          {
+            "id": "3",
+            "label": "Country",
+            "slug": "country",
+            "type": "select",
+            "terms": [
+              {
+                "id": "54",
+                "id_taxonomy": "3",
+                "value": "Korea",
+                "slug": "korea"
+              }
+            ]
+          }
+        ],
+        "info": [
+          {
+            "title": "Native Title",
+            "value": "써니"
+          },
+          {
+            "title": "Duration",
+            "value": "2 hr. 3 min."
+          },
+          {
+            "title": "Score",
+            "value": "8.7"
+          },
+          {
+            "title": "Director",
+            "value": ""
+          },
+          {
+            "title": "Keyword",
+            "value": "Sseoni, Coming Of Age, Sismance, Childhood Friends, Multiple Mains, Student, High School, Past And Present, Gang, Meet Again, 1980s (Vote or add tags)"
+          }
+        ]
+      }
+    ]
+  }
 }
