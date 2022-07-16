@@ -1,0 +1,12 @@
+{
+    "status": 1,
+    "msg": "Sukses menampilkan post list.",
+    "data": {
+        "start": 1,
+        "end": 10,
+        "next": 2,
+        "prev": 0,
+        "current_page": 1,
+        "total_page": 3
+    }
+}
